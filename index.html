@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Adress Book Application</title>
+    <link rel="shortcut icon" href="/static/img/favicon.png">
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/modal.css" />
+  </head>
+
+  <body class="app">
+    <div class="app-container">
+        <div class="header">
+            <span class="app-name">Address Book</span>
+        </div>
+        <div class="app-body"> 
+            <div class="contact-list-header">
+                <div class="">
+                    <b style="color: #D4D4D4">All Contacts</b>
+                    <button type="button" class=" btn add-contact-btn" onclick="openModal('add')">Add Contact</button>
+                </div>
+            </div>
+            <div class="contact-list box" id="contact-body">
+
+            </div>
+            <div id="inject-modal"></div>
+        </div> 
+    </div>
+  </body>
+</html>
+
+<script type="text/javascript" src="./assets/js/contact.js"></script>
+<script type="text/javascript" src="./assets/js/store.js"></script>
+<script type="text/javascript" src="./assets/js/modal.js"></script>
+
